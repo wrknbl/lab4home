@@ -99,6 +99,13 @@ void toBinar222y(int n) {
 	printf("%d", n % 2);
 }
 
+void toB22inar222y(int n) {
+	if (n > 1) {
+		toBinary(n / 2);
+	}
+	printf("%d", n % 2);
+}
+
 
 void main() {
 	SetConsoleCP(1251);
